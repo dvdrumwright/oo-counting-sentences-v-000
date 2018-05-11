@@ -3,13 +3,7 @@ require 'pry'
 class String
 
  def sentence?(sentence)
-    if sentence.each do |sentence| 
-      sentence.self.end_with(".")
-      return true 
-    end 
-    sentence
-  end 
-end 
+    sentence.self.
   
   
   def question?
