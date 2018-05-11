@@ -18,7 +18,8 @@ end
 
   def count_sentences
     count_sentences = self.split(!?.)
-    count_sentences
+    count_sentences.size
+    
 
   end
 end
