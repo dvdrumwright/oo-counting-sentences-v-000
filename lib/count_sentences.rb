@@ -3,7 +3,8 @@ require 'pry'
 class String
 
  def sentence?(sentence)
-    sentence.self.
+    sentence.self.end_with?(".")
+  end 
   
   
   def question?
