@@ -6,7 +6,7 @@ class String
     if sentence.each do |sentence| 
       sentence?.end_with(".")
       return true 
-    else 
+    elsif
       return nil 
       end
     end 
