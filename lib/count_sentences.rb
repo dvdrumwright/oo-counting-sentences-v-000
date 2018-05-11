@@ -2,14 +2,10 @@ require 'pry'
 
 class String
 
- def sentence?(sentence)
-   sentence = (" ")
-   if sentence.each do |sentence| 
-     sentence.end_with?(".")
-     return true 
- end 
- end 
- end 
+ def sentence? 
+self.end_with?(".") 
+return true 
+end
  
   
   
