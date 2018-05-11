@@ -17,6 +17,7 @@ end
 
 
   def count_sentences
+    self. 
 
   end
 end
