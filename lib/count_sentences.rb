@@ -2,7 +2,12 @@ require 'pry'
 
 class String
 
-  def sentence?
+  def sentence?(sentence?)
+    if sentence?.each do |sentence?| 
+      sentence?.end_with?(".")
+      return true 
+    else 
+      
     
   end
 
