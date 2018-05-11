@@ -4,7 +4,7 @@ class String
 
  def sentence?(sentence)
     if sentence.each do |sentence| 
-      sentence?.end_with(".")
+      sentence.end_with(".")
       return true 
       return nil 
     end 
